@@ -1,0 +1,39 @@
+.skill-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  gap: 20px;
+  transition: 0.3s;
+  width: 60%; /* Adjusted width to fit design needs */
+  margin-left: 20%; /* Centers the container */
+}
+
+.skill-list-container:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.skill-list-text {
+  margin: 10px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.skill-list-divider {
+  margin: 0;
+  outline: none;
+  border: none;
+  height: 8px;
+  border-radius: 50px;
+  background-color: #da7c25; /* Add your desired background color */
+  width: 100%; /* Full width */
+  display: block; /* Ensures full width use */
+}
+
+.skill-list-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}

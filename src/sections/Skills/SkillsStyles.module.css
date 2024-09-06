@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    max-width: 32ch;
+  }
+}
+.skillList {
+  max-width:  60%;
+  position: relative;
+}
+hr {
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+}
+@media (width >= 800px) {
+  .container {
+    p {
+      max-width: 50%;
+    }
+  }
+  .skillList {
+    width: 60%;
+
+   
+  }
+
+ 
+}
