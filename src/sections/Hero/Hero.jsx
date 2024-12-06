@@ -35,7 +35,7 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Dhan <br />
+          Sir Dhan <br />
           Belgica
         </h1>
         <h2>Flutter Developer</h2>
