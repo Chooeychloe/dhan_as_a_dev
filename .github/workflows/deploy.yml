@@ -49,3 +49,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
+          #This yml file will automate the delivery once someone push is done on the main branch
