@@ -42,7 +42,7 @@ function Contact() {
       <form action="" onSubmit={onSubmit}>
         <div className="formGroup">
           <label htmlFor="name" hidden>
-            Name
+            Names
           </label>
           <input
             type="text"
