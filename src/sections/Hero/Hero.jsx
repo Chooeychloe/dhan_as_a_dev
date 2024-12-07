@@ -38,7 +38,7 @@ function Hero() {
           Dhan <br />
           Belgica
         </h1>
-        <h2>Flutter Developer</h2>
+        <h2>Flutter Mobile Developer</h2>
         <span>
           <a href="https://www.instagram.com/well_dhan/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
